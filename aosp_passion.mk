@@ -13,9 +13,9 @@
 # limitations under the License.
 
 # Inherit device configuration
-$(call inherit-product, device/lenovo/p1a42/full_p1a42.mk)
+$(call inherit-product, device/lenovo/passion/full_p1a42.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
 #Bootanimation res
@@ -23,10 +23,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := p1a42
-PRODUCT_NAME := aosp_p1a42
+PRODUCT_DEVICE := passion
+PRODUCT_NAME := aosp_passion
 PRODUCT_BRAND := Lenovo
 PRODUCT_MANUFACTURER := Lenovo
-PRODUCT_RELEASE_NAME := p1a42
+PRODUCT_RELEASE_NAME := passion
 DEFAULT_ROOT_METHOD := magisk
-EXTENDED_BUILD_TYPE=OFFICIAL
+EXTENDED_BUILD_TYPE=UNOFFICIAL
