@@ -42,7 +42,7 @@ USE_CUSTOM_AUDIO_POLICY := 0
 
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lenovo/p1a42/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lenovo/passion/bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_QCOM := true
 BLUETOOTH_HCI_USE_MCT := true
@@ -67,7 +67,7 @@ BACKLIGHT_PATH := /sys/class/leds/button-backlight/brightness
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # CMHW
-BOARD_HARDWARE_CLASS := device/lenovo/p1a42/cmhw/src
+BOARD_HARDWARE_CLASS := device/lenovo/passion/cmhw/src
 
 # FM
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
@@ -151,7 +151,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 26843545600
 BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
 
 # Filesystem
-TARGET_ANDROID_FILESYSTEM_CONFIG_H := device/lenovo/p1a42/android_filesystem_config.h
+TARGET_ANDROID_FILESYSTEM_CONFIG_H := device/lenovo/passion/android_filesystem_config.h
 
 # Properties
 TARGET_SYSTEM_PROP += device/lenovo/p1a42/system.prop
@@ -168,14 +168,14 @@ endif
 BOARD_USES_QCOM_HARDWARE := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/lenovo/p1a42/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/lenovo/passion/rootdir/etc/fstab.qcom
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_HAS_NO_MISC_PARTITION := true
 BOARD_SUPPRESS_EMMC_WIPE := true
 
 # SELinux
-#BOARD_SEPOLICY_DIRS += device/lenovo/p1a42/sepolicy
+#BOARD_SEPOLICY_DIRS += device/lenovo/passion/sepolicy
 #include device/lineage/sepolicy/qcom/sepolicy.mk
 
 # WiFi
