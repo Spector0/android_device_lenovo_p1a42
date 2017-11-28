@@ -136,8 +136,8 @@ void vendor_load_properties()
         property_override("ro.hwui.text_large_cache_width", "2048");
         property_override("ro.hwui.text_large_cache_height", "1024");
     }
-    property_override("ro.build.product", "p1a42");
-    property_override("ro.product.device", "p1a42");
+    property_override("ro.build.product", "passion");
+    property_override("ro.product.device", "passion");
     property_override("ro.build.description", "passion_row-user 6.0.1 MMB29M P1a42_S288_160721_ROW release-keys");
     property_override("ro.build.fingerprint", "Lenovo/passion_row/P1a42:6.0.1/MMB29M/P1a42_S288_160721_ROW:user/release-keys");
 	init_alarm_boot_properties();
