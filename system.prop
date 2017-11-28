@@ -1,5 +1,5 @@
 #
-# system.prop for p1a42
+# system.prop for passion
 #
 # Android Run Time
 ro.sys.fw.dex2oat_thread_count=12
