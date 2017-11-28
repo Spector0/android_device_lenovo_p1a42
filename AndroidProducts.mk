@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_p1a42.mk
+    $(LOCAL_DIR)/aosp_passion.mk
