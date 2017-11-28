@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit device configuration
-$(call inherit-product, device/lenovo/passion/full_p1a42.mk)
+$(call inherit-product, device/lenovo/passion/full_passion.mk)
 
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/common.mk)
