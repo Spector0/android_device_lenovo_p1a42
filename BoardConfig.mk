@@ -128,8 +128,8 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_APPEND_DTB := true
-TARGET_KERNEL_SOURCE := kernel/lenovo/p1a42
-TARGET_KERNEL_CONFIG := p1a42_defconfig
+TARGET_KERNEL_SOURCE := kernel/lenovo/passion
+TARGET_KERNEL_CONFIG := passion_defconfig
 
 # Keymaster
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
@@ -154,7 +154,7 @@ BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
 TARGET_ANDROID_FILESYSTEM_CONFIG_H := device/lenovo/passion/android_filesystem_config.h
 
 # Properties
-TARGET_SYSTEM_PROP += device/lenovo/p1a42/system.prop
+TARGET_SYSTEM_PROP += device/lenovo/passion/system.prop
 
 # Qualcomm support
 BOARD_USES_QC_TIME_SERVICES := true
