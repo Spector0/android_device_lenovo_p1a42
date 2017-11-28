@@ -55,8 +55,8 @@ vidc.enc.narrow.searchrange=1
 #ro.frp.pst=/dev/block/bootdevice/by-name/config
 
 # Stock fingerprint
-ro.build.product=p1a42
-ro.product.device=p1a42
+ro.build.product=passion
+ro.product.device=passion
 ro.build.description=passion_row-user 6.0.1 MMB29M P1a42_S288_160721_ROW release-keys
 ro.build.fingerprint=Lenovo/passion_row/P1a42:6.0.1/MMB29M/P1a42_S288_160721_ROW:user/release-keys
 
