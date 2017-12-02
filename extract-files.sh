@@ -17,7 +17,7 @@
 #
 
 set -e
-export DEVICE=p1a42
+export DEVICE=passion
 export VENDOR=lenovo
 
 INITIAL_COPYRIGHT_YEAR=2016
@@ -52,7 +52,10 @@ else
 fi
 
 # Initialize the helper
-    setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" true
+setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" false $clean_vendor
+ 
+extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
+
     extract "$MY_DIR"/proprietary-files.txt "$SRC"
     INITIAL_COPYRIGHT_YEAR=2016
 
